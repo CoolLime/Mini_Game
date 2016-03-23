@@ -1,7 +1,8 @@
-var express = require('express')
-  , http = require('http')
-  , app = express()
-  , server = http.createServer(app);
+
+var http = require('http');
+var express = require('express');
+var app = express();
+var server = http.createServer(app);
 
 
 app.get('/', function (req, res) {
